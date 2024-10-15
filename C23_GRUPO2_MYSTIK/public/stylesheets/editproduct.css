@@ -1,0 +1,176 @@
+.fondocolor {
+    background-color: #EFEFEF;
+}
+
+.section_form_edit_product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.talle, .colecciones, .categorias, .colores, #stock {
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.clase_p_caracteristicas{
+    display: flex;
+    justify-content: center;
+}
+
+.ed-errors {
+    color: red;
+    font-size: 13px;
+}
+
+.contenedor {
+    width: 100%;
+    /*height: 100px;*/
+}
+
+.cuadrado {
+    width: 1150px;
+    text-align: center;
+    font-size: 30px;
+    /*box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.105);*/
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    max-height: 200px;
+    overflow: auto;
+    /*margin-bottom: 20px;*/
+}
+
+
+.cuadrado .edicion_p {
+    /*margin-top: 10px;*/
+    font-size: 35px;
+}
+
+.cuadrado_form {
+    width: 100%;
+    max-width: 1150px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.izq_formulario,
+.der_formulario {
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+}
+
+.izq_formulario {
+    flex: 1;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.der_formulario {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.centro_form {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.talle-titulo,
+.categorias-titulo,
+.colores_id,
+.stock-titulo {
+    margin-top: 20px;
+    display: block;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.container_img_edit_product {
+    height: 88%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.v-line {
+    border-right: 1px solid #ccc;
+}
+
+.img_edit_product {
+    /*max-width: 250px;*/
+    max-height: 390px;
+    display: block;
+    margin: auto;
+}
+
+
+.input_imagen_select {
+    margin-top: 10px;
+}
+
+.input-descripcion {
+    width: calc(100% - 20px);
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 10px;
+    resize: none;
+}
+
+
+.input-nombre,
+.input-precio {
+    width: calc(100% - 20px);
+    height: 40px;
+    box-sizing: border-box;
+    /*margin-bottom: 10px;*/
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.izq_formulario input[type="text"].error,
+.input-nombre.error,
+.input-precio.error,
+.input-descripcion.error
+.input-colecciones.error
+.input-colores.error {
+    border-color: red;
+}
+
+.enviar_bottom_borrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 100px;
+}
+
+.enviar_bottom_borrar button{
+    background-color: #511478;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    height: 30px;
+    width: 200px;
+    border: none;
+    color: white;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.enviar_bottom_borrar button:hover{
+    background-color: #7E1FBA;
+}
